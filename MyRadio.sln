@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRadio", "MyRadio\MyRadio.csproj", "{B534F0D7-F2A3-40CF-83A3-5FF801F54E0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRadio.Core", "MyRadio.Core\MyRadio.Core.csproj", "{B54949FA-E7B9-4D54-A972-3505BF555318}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyRadio.Infrastructure", "MyRadio.Infrastructure\MyRadio.Infrastructure.csproj", "{887D2C65-16E3-4C51-A576-6D68A340E835}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{B534F0D7-F2A3-40CF-83A3-5FF801F54E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B534F0D7-F2A3-40CF-83A3-5FF801F54E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B534F0D7-F2A3-40CF-83A3-5FF801F54E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54949FA-E7B9-4D54-A972-3505BF555318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54949FA-E7B9-4D54-A972-3505BF555318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54949FA-E7B9-4D54-A972-3505BF555318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54949FA-E7B9-4D54-A972-3505BF555318}.Release|Any CPU.Build.0 = Release|Any CPU
+		{887D2C65-16E3-4C51-A576-6D68A340E835}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{887D2C65-16E3-4C51-A576-6D68A340E835}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{887D2C65-16E3-4C51-A576-6D68A340E835}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{887D2C65-16E3-4C51-A576-6D68A340E835}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
