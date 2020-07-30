@@ -11,7 +11,7 @@ namespace MyRadio.Infrastructure.Data
         public DbSet<Station> Stations { get; set; }
         protected override void OnConfiguring(DbContextOptionsBuilder myBuilder)
         {
-            myBuilder.UseSqlite("Data Source=Stations.db");
+            myBuilder.UseSqlite("Data Source=../MyRadio.Infrastructure/Stations.db");
         }
 
         protected override void OnModelCreating(ModelBuilder myModelBuilder)
@@ -19,7 +19,7 @@ namespace MyRadio.Infrastructure.Data
             base.OnModelCreating(myModelBuilder);
 
             myModelBuilder.Entity<Station>().HasData(
-                new Station { Id = 1, Frequency = 93.7, 97.3, 100.7, 106.5, 107.7, and 950, CallSign },
+                new Station { Id = 1, Frequency = "93.7", CallSign = "KHBK", Genre = "Top 40", Website = "HOT 93-7.com" }
                 );
         }
     }
